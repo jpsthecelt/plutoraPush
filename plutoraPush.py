@@ -6,6 +6,11 @@ import pprint
 import argparse
 import json
 
+def createReleaseJson( proto, additional_info, identifier, name, summary, release_type_id, location, release_status,
+                       release_risk, impl_date, display_color, organization_id, manager_id, parent_release_id,
+                       plutora_release_type, release_project_type):
+    return proto
+
 #
 # This is a sample program to demonstrate programmatically grabbing JSON
 # objects from a file and POSTing them into Plutora
@@ -81,12 +86,18 @@ if __name__ == '__main__':
    parser = argparse.ArgumentParser(description='Get user/password and configuration-filename.')
    parser.add_argument('-c', action='store', dest='config_filename',
                        help='Config filename ')
-   parser.add_argument('-j', action='store', dest='json_filename',
-                       help='json object filename')
+   parser.add_argument('-p', action='store', dest='proto_filename',
+                       help='filename containing JSON object prototype')
+   parser.add_argument('-i', action='store', dest='release_id',
+                       help='release-id of release to copy')
    results = parser.parse_args()
 
    config_filename = results.config_filename
    json_filename = results.json_filename
+
+   if len(sys.argv[1:]) < 1:
+       parser.usage
+       parser.exit()
 
    if config_filename == None:
        config_filename = 'credentials.cfg'
@@ -108,4 +119,6 @@ if __name__ == '__main__':
         print "EXCEPTION: type: %s, msg: %s " % (sys.exc_info()[0],sys.exc_info()[1].message)
         exit('couldnt open file {0}'.format(json_filename))
 
+   createReleaseJson(json_object, [], RlsId, RlsName, RlsSummary, RlsTypeId, RlsLocation, RlsStatus,
+           RlsRisk, RlsImplDate, RlsDisplayColor, RlsOrgId, RlsMgrId, RlsParentId, RlsType, RlsProjectType)
    plutoraPush(client_id, client_secret, plutora_username, plutora_password, json_object)

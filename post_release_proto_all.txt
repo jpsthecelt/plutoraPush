@@ -1,0 +1,56 @@
+{
+  "additionalInformation": [
+    {
+      "id": "1d0a9ac3-792f-444b-beb8-f738511c481d",
+      "text": "sample string 2",
+      "time": "00:00:00.1234567",
+      "date": "2017-01-09T03:17:38.9137257+00:00",
+      "number": 1,
+      "dateTime": "2017-01-09T03:17:38.9137257+00:00",
+      "listItem": {
+        "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+      },
+      "multiListItem": [
+        {
+          "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+        },
+        {
+          "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+        }
+      ]
+    },
+    {
+      "id": "1d0a9ac3-792f-444b-beb8-f738511c481d",
+      "text": "sample string 2",
+      "time": "00:00:00.1234567",
+      "date": "2017-01-09T03:17:38.9137257+00:00",
+      "number": 1,
+      "dateTime": "2017-01-09T03:17:38.9137257+00:00",
+      "listItem": {
+        "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+      },
+      "multiListItem": [
+        {
+          "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+        },
+        {
+          "id": "d8f2e6d4-354c-428f-b025-dc258b34e34b"
+        }
+      ]
+    }
+  ],
+  "identifier": "sample string 1",
+  "name": "sample string 2",
+  "summary": "sample string 3",
+  "releaseTypeId": "c2e62573-4f9c-4480-ac51-031cb325000c",
+  "location": "sample string 4",
+  "releaseStatusTypeId": "75d29b6f-e125-433a-ad06-10167dcff6e0",
+  "releaseRiskLevelId": "cb5f434a-9397-4c88-8ccf-cfd2cff4484e",
+  "implementationDate": "2017-01-09T03:17:38.9137257+00:00",
+  "displayColor": "sample string 5",
+  "organizationId": "777299e3-2a8d-4e56-b2db-bcb7aebae278",
+  "managerId": "86c1ac62-703e-49b8-bfb8-becfdefc0636",
+  "parentReleaseId": "2dc979e1-5f68-45f2-af23-22f3fdc19390",
+  "plutoraReleaseType": "Enterprise",
+  "releaseProjectType": "IsProject"
+}

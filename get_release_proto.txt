@@ -1,0 +1,18 @@
+[
+  {
+    "id": "0ec4848d-39d9-4740-840a-28bd41714217",
+    "identifier": "sample string 2",
+    "name": "sample string 3",
+    "implementationDate": "2017-01-09T05:28:39.1989989+00:00",
+    "displayColor": "sample string 5",
+    "plutoraReleaseType": "Enterprise"
+  },
+  {
+    "id": "0ec4848d-39d9-4740-840a-28bd41714217",
+    "identifier": "sample string 2",
+    "name": "sample string 3",
+    "implementationDate": "2017-01-09T05:28:39.1989989+00:00",
+    "displayColor": "sample string 5",
+    "plutoraReleaseType": "Enterprise"
+  }
+]
